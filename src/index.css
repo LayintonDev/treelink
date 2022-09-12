@@ -52,13 +52,11 @@ overflow-x: hidden !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container-fluid{
-  overflow-x: hidden !important;
-}
+
 .socials_container {
   padding: 20px 0px 0px 50px;
   position: relative;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 
 
 
@@ -180,12 +178,9 @@ font-weight: 500;
   width: 250px;
 }
 .mobile{
-  position: absolute;
-  right: 260px;
-  bottom: 440px;
+  
   display: none;
-  height: 500px;
-  width: 500px;
+ 
 }
 
 .socials_img {
@@ -202,7 +197,13 @@ font-weight: 500;
 /* large screen size laptop  */
 @media screen and (min-width: 1260px) {
 .mobile {
-  display: block
+  display: block;
+  position: absolute;
+    right: 220px;
+    bottom: 440px;
+   z-index: 1000;
+    height: 500px;
+    width: 500px;
 }
    
     };

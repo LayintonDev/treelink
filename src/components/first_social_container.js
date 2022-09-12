@@ -13,7 +13,7 @@ import SocialWidget from "./social_widgets";
 
 const FirstSocialContainer = () => {
 	return (
-		<div className="socials_container container-fluid">
+		<div className="socials_container ">
 			<img src={mobile} alt="mobile" className="mobile" />
 			<h5>
 				FUGU NATION <span className="social_header_span">TREELINK</span>
