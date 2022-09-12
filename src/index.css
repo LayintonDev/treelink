@@ -1,13 +1,189 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --blue: #005cb9;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+.navbar-brand{
+  font-size: 1.2rem;
+    font-weight: bold;
+    color: #172A58;
+}
+.active{
+  color: black;
+  font-weight: bold !important; 
+}
+.nav-link{
+  font-size: 1.0rem;
+  font-weight: 500;
+  color: #172A58;
+}
+.first_container {
+  padding-left: 150px;
+  padding-right: 150px;
+  background-image: url("./assets/Fugu-Banner-removebg-preview.png");
+  align-items: center;
+  /* justify-content: space-between; */
+  color: #ffffff;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.socials_container {
+  padding: 50px 0px 0px 230px;
+  position: relative;
+
+}
+
+.indi_socials_container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 185px !important;
+  align-items: center;
+}
+.main_footer_container{
+  padding: 50px  150px;
+  
+}
+
+.news_letter_header{
+  margin-bottom: 30px;
+}
+.quicklink_header{
+    margin-bottom: 30px;
+}
+
+/* form  */
+.news_letter_form{
+  position: relative;
+}
+/* inputs  */
+#inputPassword2{
+  padding: 1.2rem 1.2rem;
+  font-size: .8rem;
+}
+/* button  */
+.subscribe_btn{
+position: absolute;
+top: 7px;
+right: 10px;
+
+}
+
+/* Links  */
+.continue_browsing{
+  margin-left: 170px;
+  margin-bottom: 20px;
+}
+
+/* typography */
+.social_header_span {
+  color: grey;
+}
+
+.socials_paragraph {
+  text-transform: capitalize;
+  font-size: .6rem;
+  font-weight: 300;
+  color: gray;
+  line-height: 0.2rem;
+}
+.socials_h6{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.last {
+  font-size: .6rem;
+  font-weight: bold;
+}
+
+.socials_container h5 {
+  color: var(--blue);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 70px;
+}
+
+.banner_head_test {
+  font-size: .7rem;
+  font-weight: 500;
+}
+
+.banner_body_test {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  /* max-width: 550px; */
+}
+.news_letter_header{
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: #353F66;
+}
+.quicklink_header{
+  color: #353F66;
+  font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.inid_quiclink_container ul{
+  padding: 0px;
+}
+.quicklink_list{
+list-style-type: none;
+margin-bottom: 10px;
+color: grey;
+font-size: 1.1rem;
+font-weight: 500;
+}
+
+/* IMAGES */
+.banner_img {
+  height: 350px;
+  width: 350px;
+}
+.mobile{
+  position: absolute;
+  right: 70px;
+  bottom: 620px;
+  display: none;
+}
+
+.socials_img {
+  height: 300px;
+  width: 300px;
+}
+
+/* media queries */
+/* lg-992px md-768px sm-576px  */
+/* large screen size laptop  */
+@media screen and (min-width: 1624px) {
+  .mobile {
+    display: block;
+  }
+   
+    };
+
+@media screen and (min-width: 992px) {
+
+}
+/* medium screen  */
+@media screen and (min-width: 768px) {
+
+}
+
+/* mobiles  */
+@media screen and (min-width: 576px) {
+.indi_socials_container {
+    margin-right: 85px !important;
+  }
 }
