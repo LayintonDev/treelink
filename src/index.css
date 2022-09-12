@@ -221,20 +221,27 @@ font-weight: 500;
     margin-right: 85px !important;
     
   }}
-  @media screen and (min-width:576px) {
+
+  @media screen and (min-width:676px) {
     .subscribe_btn {
         position: absolute;
         top: 15px;
         right: -20px;
     
       }
+      .news_letter{
+        width: 60%;
+      }
+            .news_letter_form{
+              width: 60%;
+            }
     
       #news_letter {
         padding: .8rem .8rem;
         font-size: .6rem;
         width: 100%;
-        ;
+        
       }
   }
-
+    
 
