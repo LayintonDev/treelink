@@ -75,8 +75,12 @@ const FirstSocialContainer = () => {
 			<div className="row row-cols-2 row-cols-lg-5">
 				<div></div>
 				<div></div>
-				<a href="/" className="ms-5">
-					<img className="" src={cont_browsing} alt="twitter" />
+				<a href="/" className="ms-5 continue_browsing">
+					<img
+						className="cont_browsing_img"
+						src={cont_browsing}
+						alt="twitter"
+					/>
 				</a>
 			</div>
 		</div>

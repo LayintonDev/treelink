@@ -15,7 +15,7 @@ const Footer = () => {
 						id="inputPassword2"
 						placeholder="Enter your email address here..."
 					/>
-					<button type="submit" class="btn btn-primary btn-lg subscribe_btn">
+					<button type="submit" class="btn btn-primary  subscribe_btn">
 						Subscribe
 					</button>
 				</form>
