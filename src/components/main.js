@@ -2,7 +2,7 @@ import React from "react";
 import FirstBanner from "./first_banner";
 import SecondBanner from "./second_banner";
 import FirstSocialContainer from "./first_social_container";
-import SecondSocialContainer from "./second_social_container copy";
+import SecondSocialContainer from "./second_social_container";
 
 const Main = () => {
 	return (

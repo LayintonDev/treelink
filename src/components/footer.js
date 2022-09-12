@@ -2,20 +2,23 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<div className="main_footer_container ms-5 d-flex justify-content-between">
-			<div className="news_letter">
+		<div className="main_footer_container  d-flex flex-column flex-lg-row justify-content-between">
+			<div className="news_letter me-5 mb-5">
 				<h4 className="news_letter_header">get ready for the next drop</h4>
 				<form className="news_letter_form">
-					<label for="inputPassword2" class="visually-hidden">
+					<label for="news letter" class="visually-hidden">
 						News Letter
 					</label>
 					<input
-						type="password"
+						type="text"
 						class="form-control form-control-lg"
-						id="inputPassword2"
+						id="news_letter"
 						placeholder="Enter your email address here..."
 					/>
-					<button type="submit" class="btn btn-primary  subscribe_btn">
+					<button
+						type="submit"
+						class="btn btn-primary btn-sm btn-md-lg  subscribe_btn"
+					>
 						Subscribe
 					</button>
 				</form>

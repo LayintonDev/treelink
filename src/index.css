@@ -11,6 +11,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  
 }
 .navbar-brand{
   font-size: .8rem;
@@ -39,7 +40,7 @@ body {
 }
 
 .socials_container {
-  padding: 20px 0px 0px 200px;
+  padding: 20px 0px 0px 50px;
   position: relative;
   margin-top: 30px;
 
@@ -52,7 +53,7 @@ body {
   align-items: center;
 }
 .main_footer_container{
-  padding: 20px  150px;
+  padding: 20px 100px;
   
 }
 
@@ -68,14 +69,14 @@ body {
   position: relative;
 }
 /* inputs  */
-#inputPassword2{
+#news_letter{
   padding: .8rem .8rem;
   font-size: .8rem;
 }
 /* button  */
 .subscribe_btn{
 position: absolute;
-top: 4px;
+top: 7px;
 right: 10px;
 
 }
@@ -154,9 +155,11 @@ font-weight: 500;
 }
 .mobile{
   position: absolute;
-  right: 70px;
-  bottom: 620px;
+  right: 260px;
+  bottom: 440px;
   display: none;
+  height: 500px;
+  width: 500px;
 }
 
 .socials_img {
@@ -171,23 +174,23 @@ font-weight: 500;
 /* media queries */
 /* lg-992px md-768px sm-576px  */
 /* large screen size laptop  */
-@media screen and (min-width: 1624px) {
-  .mobile {
-    display: block;
-  }
+@media screen and (min-width: 1260px) {
+.mobile {
+  display: block
+}
    
     };
 
 @media screen and (min-width: 992px) {
 
-}
+};
 /* medium screen  */
 @media screen and (min-width: 768px) {
 
 }
 
 /* mobiles  */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
 .indi_socials_container {
     margin-right: 85px !important;
   }

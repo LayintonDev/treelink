@@ -10,11 +10,11 @@ import SocialWidget from "./social_widgets";
 
 const SecondSocialContainer = () => {
 	return (
-		<div className="socials_container">
+		<div className="socials_container container-fluid">
 			<h5 style={{ color: "#800080" }}>
 				PUFFERSQUAD <span className="social_header_span">TREELINK</span>
 			</h5>
-			<div className="row row-cols-2 row-cols-lg-5">
+			<div className="row row-cols-2 row-cols-md-3 row-cols-lg-5">
 				<SocialWidget
 					color={"#800080"}
 					image={twitter}
@@ -29,7 +29,7 @@ const SecondSocialContainer = () => {
 				/>
 			</div>
 
-			<div className="row row-cols-2 row-cols-lg-5">
+			<div className="row row-cols-2 row-cols-md-3 row-cols-lg-5">
 				<SocialWidget
 					color={"#800080"}
 					image={facebook}
