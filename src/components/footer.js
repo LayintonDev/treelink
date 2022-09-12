@@ -15,10 +15,7 @@ const Footer = () => {
 						id="news_letter"
 						placeholder="Enter your email address here..."
 					/>
-					<button
-						type="submit"
-						class="btn btn-primary btn-sm btn-md-lg  subscribe_btn"
-					>
+					<button type="submit" class="btn btn-primary btn-sm  subscribe_btn">
 						Subscribe
 					</button>
 				</form>

@@ -18,7 +18,7 @@ const FirstSocialContainer = () => {
 			<h5>
 				FUGU NATION <span className="social_header_span">TREELINK</span>
 			</h5>
-			<div className="row row-cols-2  row-cols-md-3   row-cols-lg-5">
+			<div className="row row-cols-2 row-cols-xs-1  row-cols-md-3   row-cols-lg-5">
 				<SocialWidget
 					image={twitter}
 					color={"#005cb9"}
@@ -32,7 +32,7 @@ const FirstSocialContainer = () => {
 					bottom_title="FUGU_NATION"
 				/>
 			</div>
-			<div className="row row-cols-2  row-cols-md-3   row-cols-lg-5">
+			<div className="row row-cols-2  row-cols-md-3 row-cols-xs-1   row-cols-lg-5">
 				<SocialWidget
 					image={facebook}
 					color={"#005cb9"}

@@ -1,6 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: initial !important;
+}
+ ::after,
+ ::before{
+  box-sizing: initial !important;
+  margin: 0;
+  padding: 0;
+ }
+ 
+ul{
+  margin:0;
+  overflow-x: hidden !important;
+  
 }
 
 :root {
@@ -11,6 +24,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  padding: 0px;
   
 }
 .navbar-brand{
@@ -34,15 +48,19 @@ body {
   align-items: center;
   /* justify-content: space-between; */
   color: #ffffff;
-
+overflow-x: hidden !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.container-fluid{
+  overflow-x: hidden !important;
+}
 .socials_container {
   padding: 20px 0px 0px 50px;
   position: relative;
   margin-top: 30px;
+
+
 
 }
 
@@ -53,12 +71,18 @@ body {
   align-items: center;
 }
 .main_footer_container{
-  padding: 20px 100px;
+  padding: 20px 80px;
+  /* overflow-x: hidden !important; */
+
   
+}
+.news_letter{
+  width: 100%;
 }
 
 .news_letter_header{
   margin-bottom: 20px;
+  width: 100%;
 }
 .quicklink_header{
     margin-bottom: 20px;
@@ -67,17 +91,18 @@ body {
 /* form  */
 .news_letter_form{
   position: relative;
+  width: 100%;
 }
 /* inputs  */
 #news_letter{
-  padding: .8rem .8rem;
-  font-size: .8rem;
+  padding: .6rem .8rem;
+  font-size: .6rem;
+  width: 100%;
+  margin-bottom: 20px;
 }
 /* button  */
 .subscribe_btn{
-position: absolute;
-top: 7px;
-right: 10px;
+
 
 }
 
@@ -127,6 +152,7 @@ right: 10px;
 }
 .news_letter_header{
   font-size: 1.5rem;
+  width: 100%;
   font-weight: bolder;
   text-transform: capitalize;
   color: #353F66;
@@ -188,10 +214,26 @@ font-weight: 500;
 @media screen and (min-width: 768px) {
 
 }
-
 /* mobiles  */
 @media screen and (max-width: 576px) {
 .indi_socials_container {
     margin-right: 85px !important;
+    
+  }}
+  @media screen and (min-width:576px) {
+    .subscribe_btn {
+        position: absolute;
+        top: 15px;
+        right: -20px;
+    
+      }
+    
+      #news_letter {
+        padding: .8rem .8rem;
+        font-size: .6rem;
+        width: 100%;
+        ;
+      }
   }
-}
+
+

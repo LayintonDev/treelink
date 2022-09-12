@@ -4,9 +4,9 @@ import logo from "../assets/EK6IsMVr-removebg-preview (1).png";
 const Header = () => {
 	return (
 		<header>
-			<nav className="navbar navbar-expand-lg bg-light">
-				<div className="container-fluid justify-content-between">
-					<div className="ms-5">
+			<nav className="navbar navbar-expand-md navbar-light bg-light sticky-top">
+				<div className="container-fluid">
+					<div className="ms-md-5">
 						<img src={logo} height="100px" width="100px" alt="logo" />
 						<a className="navbar-brand" href="/">
 							Fugu Nation
@@ -27,7 +27,7 @@ const Header = () => {
 						className="collapse navbar-collapse me-5 flex-grow-0"
 						id="navbarNav"
 					>
-						<ul className="navbar-nav">
+						<ul className="navbar-nav ms-auto">
 							<li className="nav-item">
 								<a className="nav-link " aria-current="page" href="/">
 									About
