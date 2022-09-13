@@ -56,7 +56,7 @@ overflow-x: hidden !important;
 .second_banner_container{
   padding-left: 100px;
     padding-right: 100px;
-    background-image: url("./assets/PFS-Banner.png");
+    background-image: url("./assets/PFS-banner.png");
     align-items: center;
     /* justify-content: space-between; */
     color: #ffffff;
@@ -113,10 +113,7 @@ overflow-x: hidden !important;
   margin-bottom: 20px;
 }
 /* button  */
-.subscribe_btn{
 
-
-}
 
 /* Links  */
 .continue_browsing{
