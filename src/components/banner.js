@@ -1,17 +1,20 @@
 import React from "react";
 
-const Banner = ({ banner, title, des }) => {
+const Banner = ({ banner, title, des, className }) => {
 	return (
-		<div className="container-fl">
-			<div className="first_container  row">
+		<div className="container-fluid">
+			<div className={`row  ${className}`}>
 				<img
 					src={banner}
-					className="col-lg-5 col-md-6 col-sm-6  col-xs-12 banner_img"
-					alt="first_banner"
+					className=" col-xs-12 col-sm-6 col-md-2 col-lg-5 banner_img"
+					alt="banner"
 				/>
-				<div className="col-lg-7 col-md-6 col-sm-6 col-xs-12 banner_test_container">
+
+				{/*   */}
+				{/*  */}
+				<div className="col-xs-12 col-sm-6 col-md-10 col-lg-7 banner_test_container">
 					<p className="banner_head_test">{title}</p>
-					<p className="banner_body_test">{des}</p>
+					<p className="banner_body_test pe-5">{des}</p>
 				</div>
 			</div>
 		</div>

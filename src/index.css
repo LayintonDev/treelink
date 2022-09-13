@@ -26,6 +26,7 @@ body {
   overflow-x: hidden;
   padding: 0px;
   
+  
 }
 .navbar-brand{
   font-size: .8rem;
@@ -41,7 +42,7 @@ body {
   font-weight: 500;
   color: #172A58;
 }
-.first_container {
+.first_banner_container {
   padding-left: 100px;
   padding-right: 100px;
   background-image: url("./assets/Fugu-Banner-removebg-preview.png");
@@ -52,15 +53,28 @@ overflow-x: hidden !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.second_banner_container{
+  padding-left: 100px;
+    padding-right: 100px;
+    background-image: url("./assets/PFS-Banner.png");
+    align-items: center;
+    /* justify-content: space-between; */
+    color: #ffffff;
+    overflow-x: hidden !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .socials_container {
-  padding: 20px 0px 0px 50px;
+  padding: 50px 50px 0px 50px;
   position: relative;
+
   /* margin-top: 30px; */
 
 
 
 }
+
 
 .indi_socials_container {
   display: flex;
@@ -172,6 +186,8 @@ font-size: .9rem;
 font-weight: 500;
 }
 
+
+
 /* IMAGES */
 .banner_img {
   height: 250px;
@@ -184,11 +200,12 @@ font-weight: 500;
 }
 
 .socials_img {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 .cont_browsing_img{
   height: 80px;
+  margin-left: 150px;
 
 }
 
@@ -199,22 +216,28 @@ font-weight: 500;
 .mobile {
   display: block;
   position: absolute;
-    right: 220px;
-    bottom: 440px;
+    right: 320px;
+  
+    bottom: 300px;
    z-index: 1000;
     height: 500px;
     width: 500px;
 }
+ .first_banner_container {
+   padding-left: 200px;
+   padding-right: 200px;
+ }
+ .second_banner_container{
+  padding-left: 200px;
+    padding-right: 200px;
+ }
+
+ 
    
     };
+                
 
-@media screen and (min-width: 992px) {
 
-};
-/* medium screen  */
-@media screen and (min-width: 768px) {
-
-}
 /* mobiles  */
 @media screen and (max-width: 576px) {
 .indi_socials_container {
