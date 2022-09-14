@@ -82,6 +82,10 @@ body {
 
 }
 
+.first_social_container{
+margin: 0 40px;
+/* padding: 0 auto; */
+}
 
 .indi_socials_container {
   display: flex;
