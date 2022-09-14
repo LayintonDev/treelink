@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = ({ banner, title, des, className }) => {
 	return (
-		<div className="container-fluid">
+		<div className="">
 			<div className={`row  ${className}`}>
 				<img
 					src={banner}
@@ -14,7 +14,7 @@ const Banner = ({ banner, title, des, className }) => {
 				{/*  */}
 				<div className="col-xs-12 col-sm-6 col-md-10 col-lg-7 banner_test_container">
 					<p className="banner_head_test">{title}</p>
-					<p className="banner_body_test pe-5">{des}</p>
+					<p className="banner_body_test">{des}</p>
 				</div>
 			</div>
 		</div>

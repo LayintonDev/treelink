@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./banner";
-import banner from "../assets/PFS-logo.png";
+import banner from "../assets/PFS-Logo.png";
 
 const SecondBanner = () => {
 	return (

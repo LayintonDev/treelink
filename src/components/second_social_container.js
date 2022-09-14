@@ -10,7 +10,7 @@ import SocialWidget from "./social_widgets";
 
 const SecondSocialContainer = () => {
 	return (
-		<div className="socials_container container-fluid">
+		<div className="socials_container ">
 			<h5 style={{ color: "#800080" }}>
 				PUFFERSQUAD <span className="social_header_span">TREELINK</span>
 			</h5>
