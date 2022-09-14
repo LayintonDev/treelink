@@ -210,7 +210,7 @@ body {
 /* IMAGES */
 .banner_img {
   height: 250px;
-  width: 500px;
+  width:250px;
 
   text-align: center;
 }
@@ -292,10 +292,7 @@ body {
     width: initial   ;
     height: 350px
   }
-    .banner_img {
-      height: 250px;
-      width: 250px;
-    }
+   
         .banner_test_container {
           width: 70%;
         }
