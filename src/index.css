@@ -278,9 +278,9 @@ body {
   .mobile {
     display: block;
     position: absolute;
-    right: 245px;
+    right: 275px;
 
-    bottom: 190px;
+    bottom: 230px;
     z-index: 1000;
     height: 480px;
     width: 480px;
@@ -289,8 +289,8 @@ body {
   .first_banner_container {
     padding-left: 200px;
     padding-right: 200px;
-    width: initial
-    ;
+    width: initial   ;
+    height: 350px
   }
     .banner_img {
       height: 250px;
@@ -304,6 +304,7 @@ body {
     padding-left: 200px;
     padding-right: 200px;
     width: initial;
+    height: 350px;
   }
     .socials_container {
       padding: 50px 20px 0px 200px;
