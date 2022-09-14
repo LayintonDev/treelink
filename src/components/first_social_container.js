@@ -18,8 +18,9 @@ const FirstSocialContainer = () => {
 			<h5>
 				FUGU NATION <span className="social_header_span">TREELINK</span>
 			</h5>
-			<div className="row row-cols-xs-5 row-cols-sm-5   row-cols-md-5   row-cols-lg-5">
+			<div className="row row-cols-xs-5 row-cols-sm-5   row-cols-md-5   row-cols-lg-5 first_social_container">
 				<SocialWidget
+					isFirst={true}
 					image={twitter}
 					color={"#005cb9"}
 					title={"TWITTER"}
