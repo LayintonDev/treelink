@@ -27,6 +27,7 @@ const SecondSocialContainer = () => {
 					title={"INSTAGRAM"}
 					bottom_title="PUFFERSQUAD"
 				/>
+				<div className="col indi_socials_container"></div>
 			</div>
 
 			<div className="row row-cols-xs-5 row-cols-sm-5   row-cols-md-5   row-cols-lg-5">
