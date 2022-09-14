@@ -43,7 +43,7 @@ body {
 }
 
 .first_banner_container {
-  width:initial;
+  width:inherit;
   padding-left: 20px;
   padding-right: 20px;
   background-image: url("./assets/Fugu-Banner-removebg-preview.png");
@@ -55,10 +55,10 @@ body {
   background-size: cover;
 }
 .banner_test_container{
-  width: 100%;
+  width: inherit;
 }
 .second_banner_container {
-  width: initial;
+  width: inherit;
   padding-left: 20px;
   padding-right: 20px;
   background-image: url("./assets/PFS-banner.png");
@@ -73,7 +73,8 @@ body {
 .socials_container {
   padding: 50px 20px 0px 30px;
   position: relative;
-  width: 100%;
+  width: inherit;
+  overflow-x: hidden !important;
 
   /* margin-top: 30px; */
 
@@ -91,9 +92,9 @@ body {
 }
 
 .main_footer_container {
-  width: 100%;
+  width: inherit;
   padding: 20px 20px;
-  /* overflow-x: hidden !important; */
+  overflow-x: hidden !important;
 
 
 }
@@ -180,7 +181,7 @@ body {
 
 .news_letter_header {
   font-size: 1.5rem;
-  width: 100%;
+  width: inherit;
   font-weight: bolder;
   text-transform: capitalize;
   color: #353F66;
@@ -231,7 +232,7 @@ body {
 
 .cont_browsing_img {
   height: 60px;
-  margin-left: 100px;
+  margin-left: 80px;
   width: 230px;
   text-align: center;
 
