@@ -85,7 +85,7 @@ body {
 .indi_socials_container {
   display: flex;
   flex-direction: row;
-  /* margin-right: 20px !important; */
+  margin-right: 30px !important;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -209,10 +209,11 @@ body {
 
 /* IMAGES */
 .banner_img {
-  height: 250px;
-  width:250px;
+  height: 300px;
+  width:300px;
+  margin: 0 auto;
 
-  text-align: center;
+  /* text-align: center; */
 }
 
 .mobile {
@@ -225,6 +226,7 @@ body {
   height: 40px;
   width: 40px;
   margin-right: 3px;
+  
 }
 
 .cont_browsing_img {
@@ -303,15 +305,15 @@ body {
     width: initial;
     height: 350px;
   }
+    .banner_img {
+      height: 250px;
+      width: 250px;
+      text-align: center;
+    }
     .socials_container {
       padding: 50px 20px 0px 200px;
       position: relative;
      width: 100%;
-  
-  
-  
-  
-  
     }
     .indi_socials_container {
      

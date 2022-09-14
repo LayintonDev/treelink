@@ -31,6 +31,12 @@ const FirstSocialContainer = () => {
 					title={"INSTAGRAM"}
 					bottom_title="FUGU_NATION"
 				/>
+				{/* <SocialWidget
+					image={instagram}
+					color={"#005cb9"}
+					title={"INSTAGRAM"}
+					bottom_title="FUGU_NATION"
+				/> */}
 			</div>
 			<div className="row row-cols-xs-5 row-cols-sm-5   row-cols-md-5   row-cols-lg-5">
 				<SocialWidget
