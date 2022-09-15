@@ -14,7 +14,7 @@ const SecondSocialContainer = () => {
 			<h5 style={{ color: "#800080" }}>
 				PUFFERSQUAD <span className="social_header_span">TREELINK</span>
 			</h5>
-			<div className="row row-cols-xs-5 row-cols-sm-5   row-cols-md-5   row-cols-lg-5 first_social_container">
+			<div className="row row-cols-xs-5 row-cols-sm-5   row-cols-md-5   row-cols-lg-5 ">
 				<SocialWidget
 					color={"#800080"}
 					image={twitter}

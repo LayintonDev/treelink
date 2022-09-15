@@ -8,17 +8,16 @@ import youtube from "../assets/youtube-Fugu.png";
 import opensea from "../assets/Opensea-Fugu.png";
 import Tiktok from "../assets/Tiktok-Fugu.png";
 import cont_browsing from "../assets/Btn.png";
-import mobile from "../assets/Mobile.png";
+
 import SocialWidget from "./social_widgets";
 
 const FirstSocialContainer = () => {
 	return (
 		<div className="socials_container">
-			<img src={mobile} alt="mobile" className="mobile" />
 			<h5>
 				FUGU NATION <span className="social_header_span">TREELINK</span>
 			</h5>
-			<div className="row row-cols-xs-5 row-cols-sm-5   row-cols-md-5   row-cols-lg-5 first_social_container">
+			<div className="row row-cols-xs-5 row-cols-sm-5   row-cols-md-5   row-cols-lg-5 ">
 				<SocialWidget
 					isFirst={true}
 					image={twitter}
@@ -74,7 +73,7 @@ const FirstSocialContainer = () => {
 					bottom_title="FUGU_NATION"
 				/>
 			</div>
-			<div className="row row-cols-xs-2 row-cols-sm-2   row-cols-md-5   row-cols-lg-2">
+			<div className="row row-cols-xs-2 row-cols-sm-2   row-cols-md-5   row-cols-lg-5">
 				<div className="col"></div>
 				<div className="col"></div>
 				<a href="/" className="col ms-5 continue_browsing">
